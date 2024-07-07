@@ -1,0 +1,275 @@
+header{
+    width: 1103.41px;
+    height: 29.46px;
+    top: 35.02;
+    left: 171.59px;
+
+}
+footer {
+    background-color: #0a1128; /* Dark blue background */
+    color: white; /* White text color */
+    padding: 20px 0; /* Vertical padding */
+    text-align: center; /* Center text alignment */
+  }
+  
+  footer .logo {
+    display: block;
+    margin: 0 auto 10px; /* Center logo with margin */
+    width: 169px;
+    height: 30px;
+    top: 95px;
+    left: 165px;
+    padding: 0.02px 0px 0.52px 0.59px;
+    gap: 0px;
+    opacity: 0px;
+
+  }
+  
+  footer .social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between social icons */
+  }
+  
+  footer .social-icons li {
+    display: inline-block;
+  }
+  
+  footer .social-icons a {
+    color: white; /* White color for social icons */
+    text-decoration: none;
+    font-size: 20px; /* Adjust size as needed */
+  }
+  
+  footer .social-icons a:hover {
+    color: #ffdd57; /* Hover color */
+  }
+  
+  footer .copyright {
+    width: 96px;
+    height: 15px;
+    top: 195px;
+    left: 672px;
+    gap: 0px;
+    opacity: 0.35px;
+    font-family: Source Sans Pro;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.08px;
+    text-align: center;
+
+  }
+
+.membership-section {
+    background-color: #0a1128; /* Dark blue background */
+    color: white; /* White text color */
+    padding: 50px 0; /* Vertical padding */
+    text-align: center; /* Center text alignment */
+  }
+  
+  .membership-section h2 {
+    color: #b37ef7; /* Purple color for the heading */
+    font-size: 32px; /* Adjust size as needed */
+    margin-bottom: 20px;
+  }
+  
+  .membership-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between cards */
+  }
+  
+  .membership-card {
+    background-color: #14213d; /* Slightly lighter dark blue */
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px; /* Adjust width as needed */
+    text-align: center;
+  }
+  
+  .membership-card img {
+    display: block;
+    margin: 0 auto 10px;
+  }
+  
+  .membership-card h3 {
+    color: #b37ef7; /* Purple color for the card title */
+    font-size: 24px; /* Adjust size as needed */
+    margin-bottom: 10px;
+  }
+  
+  .membership-card p {
+    font-size: 16px; /* Adjust size as needed */
+    color: #ffffff;
+  }
+  
+  .register-button {
+    background-color: #b37ef7; /* Purple background color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px; /* Adjust size as needed */
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s;
+  }
+  
+  .register-button:hover {
+    background-color: #9f60e3; /* Slightly darker purple on hover */
+  }
+  .quote-section {
+    background-color: #cc67ff; /* Background color from the Figma file */
+    color: #ffffff; /* Text color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    display: flex;
+    align-items: center;
+}
+
+.quote-image {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 100px; /* Adjust size as per design */
+    height: 100px;
+}
+
+.quote-text {
+    max-width: 600px; /* Adjust as per design */
+}
+
+.quote {
+    font-size: 1.2em; /* Adjust font size as per design */
+    font-style: italic;
+    margin: 0;
+}
+
+.quote-author {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.quote-title {
+    font-size: 0.9em;
+    color: #cccccc; /* Lighter text color for title */
+    margin: 0;
+}
+.videos-section {
+    padding: 40px;
+    background-color: #f9f9f9; /* Background color */
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #cc67ff; /* Highlight color from the Figma file */
+}
+
+.video-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.video-item {
+    background-color: #ffffff; /* White background for video items */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    width: 250px; /* Adjust width as per design */
+    margin: 10px;
+    text-align: left;
+}
+
+.video-thumbnail {
+    width: 100%;
+    height: auto;
+}
+
+.video-info {
+    padding: 15px;
+}
+
+.video-title {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.video-description {
+    font-size: 0.9em;
+    color: #666666; /* Gray color for description */
+    margin-bottom: 10px;
+}
+
+.video-meta {
+    display: flex;
+    align-items: center;
+}
+
+.author-image {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-name {
+    font-size: 0.9em;
+    margin-right: auto;
+}
+
+.video-rating {
+    font-size: 1em;
+    color: #cc67ff; /* Star color */
+    margin-right: 10px;
+}
+
+.video-duration {
+    font-size: 0.8em;
+    color: #999999; /* Gray color for duration */
+}
+.faq-section {
+    padding: 40px;
+    background-color: #ffffff; /* Background color */
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.faq-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.faq-item {
+    width: 45%; /* Adjust width as per design */
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.faq-question {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.faq-answer {
+    font-size: 1em;
+    color: #070303; /* Gray color for answer text */
+    line-height: 1.5;
+}
